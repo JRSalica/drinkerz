@@ -150,9 +150,8 @@ body{
 
 .caption-back{
     background-image: linear-gradient(to right bottom, #b4aaa8, #bdb2b2, #c6babd, #cec2c8, #d4cbd4, #d8d1da, #dcd8e0, #e0dee6, #e3e2e8, #e7e6ea, #eaeaec, #eeeeee);
-    background-color: var(--primary-light);
     border-color: var(--secondary-dark);
-    border-radius: 10px;
+    border-radius: 1rem;
     border-style: groove;
 }
 
@@ -167,6 +166,15 @@ body{
 .article-card{
     background-color: var(--primary-light);
     border-color: var(--primary-dark);
+}
+
+.article-card-body{
+    padding-bottom: 0;
+}
+
+.article-card-title{
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 .article-card-text{
@@ -216,6 +224,7 @@ body{
 }
 
 .navbar-brand{
+    font-size: 1.8rem;
     padding: 0rem;
 }
 
@@ -276,10 +285,30 @@ body{
 
 
 /******************/
-/* CONTACT STYLE */
+/* ABOUT US STYLE */
 
+.about-text{
+    font-size: 1.2rem;
+    text-align: justify;
+}
 
-/* END CONTACT STYLE */
+.about-card{
+    background-color: var(--primary-light);
+}
+
+.about-card-body{
+    background-color: var(--secondary-dark);
+    
+}
+
+.about-card-title{
+    color: var(--primary-light);
+    font-family: "Montserrat", serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+/* END ABOUT US STYLE */
 /********************/
 
 
