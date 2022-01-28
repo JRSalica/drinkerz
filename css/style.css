@@ -7,6 +7,10 @@
 /* MONTSERRAT */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
+/* ROBOTO */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 /* FONTS IMPORT END */
 /*******************/
 
@@ -303,7 +307,7 @@ body{
 
 .about-card-title{
     color: var(--primary-light);
-    font-family: "Montserrat", serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     text-transform: uppercase;
 }
