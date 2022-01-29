@@ -292,7 +292,9 @@ body{
 /* ABOUT US STYLE */
 
 .about-text{
+    font-family: "Roboto", serif;
     font-size: 1.2rem;
+    font-weight: 600;
     text-align: justify;
 }
 
@@ -307,8 +309,9 @@ body{
 
 .about-card-title{
     color: var(--primary-light);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.1rem;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
