@@ -8,7 +8,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 /* ROBOTO */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 /* FONTS IMPORT END */
@@ -39,13 +38,14 @@
 .footer-section{
     background-color: var(--primary-dark);
     color: var(--primary-light);
+    font-family: 'Roboto', serif;
 }
 
 body{
     background-image: linear-gradient(to bottom, #dbd8e3, #d4cbd4, #cbc0c4, #c0b5b6, #b4aaa8);
     color: var(--primary-dark); 
-    font-family: 'Lusitana', serif;
-    font-weight:lighter;
+    font-family: 'Roboto', serif;
+    font-weight: 600;
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
 }
@@ -58,7 +58,8 @@ body{
 
 .generic-input{
     color:var(--primary-dark);
-    font-family: 'Lusitana', serif;
+    font-family: 'Roboto', serif;
+    font-weight: 600;
 }
 
 .generic-input:focus{
@@ -69,9 +70,9 @@ body{
 .generic-modal{
     background-color: var(--primary-light);
     color: var(--primary-dark);
-    font-family: 'Lusitana', serif;
+    font-family: 'Roboto', serif;
     font-size: 1rem;
-    font-weight: lighter;
+    font-weight: 600;
     line-height: 1.5;
     text-transform: none;
 }
@@ -86,7 +87,7 @@ body{
     color: var(--primary-dark);
     cursor: pointer;
     display: inline-block;
-    font-family: 'Lusitana', serif;
+    font-family: 'Roboto', serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 30px;
@@ -122,7 +123,8 @@ body{
 
 .generic-link{
     color: var(--primary-dark);
-    font-family: 'Lusitana', serif;
+    font-family: 'Roboto', serif;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -183,6 +185,14 @@ body{
 
 .article-card-text{
     text-align: justify;
+}
+
+.difficult-section{
+    transform: translateY(100%);
+}
+
+.star-checked{
+    color: var(--primary-medium);
 }
 
 /* PAGINATION */
@@ -320,7 +330,7 @@ body{
 
 
 
-/**************¨**********/
+/*************************/
 /* RECIPE GALLERY STYLE */
 
 .drink-card{
@@ -328,15 +338,55 @@ body{
     max-width: 270px;
 }
 
-.drink-card-body{
+.drink-card-body, .drink-card-footer{
     background-color: var(--secondary-light);
+}
+
+.drink-card-title{
+    font-size: 1.5rem;
+    font-weight:bolder;
 }
 
 .drink-card-text
 {
-    
-    font-weight: 400;
+    font-weight: 600;
 }
 
 /* END RECIPE GALLERY STYLE */
 /***************************/
+
+
+
+/******************/
+/* RECIPES STYLE */
+
+.recipe-card-container {
+    border: 1px solid var(--secondary-dark);
+    background-color: var(--secondary-light);
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem;
+    overflow: hidden; 
+    transition: all 400ms ease;
+}
+
+.recipe-card-container:hover {
+    box-shadow: 1.5rem 1.5rem 2rem rgba(255, 255, 255, 0.8);
+    transform: translateY(-3%);
+}
+
+.recipe-card-main, .recipe-card-body, .recipe-card-list, .recipe-card-list > .list-group-item{
+    background-color: var(--primary-light);
+}
+
+.recipe-card-list > .list-group-item{
+    color: var(--primary-dark)
+}
+
+/**** COMMENTS SECTION ****/
+
+.comment-container, .comment-container-inner{
+    background-color: inherit;
+}
+
+/* END RECIPES STYLE */
+/********************/
