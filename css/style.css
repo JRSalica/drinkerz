@@ -1,0 +1,377 @@
+/*****************/
+/* FONTS IMPORT */
+
+/* MONTSERRAT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* FONTS IMPORT END */
+/*******************/
+
+
+/*******************/
+/* COLOUR PALETTE */
+
+:root{
+    --primary-light: #EEEEEE;
+    --secondary-light: #DBD8E3;
+    --primary-medium: #B4AAA8;
+    --secondary-dark: #1C2838;
+    --primary-dark: #0C1622;
+}
+
+/* COLOUR PALETTE END */
+/*********************/
+
+
+/*********************/
+/* COMPONENTS STYLE */
+
+.header-section,
+.footer-section{
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+    font-family: 'Roboto', serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #dbd8e3, #d4cbd4, #cbc0c4, #c0b5b6, #b4aaa8);
+    color: var(--primary-dark); 
+    font-family: 'Roboto', serif;
+    font-weight: 600;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+}
+
+.generic-card{
+    padding: 0;
+    max-height: 480px;
+    max-width: 240px;
+}
+
+.generic-input{
+    color:var(--primary-dark);
+    font-family: 'Roboto', serif;
+    font-weight: 600;
+}
+
+.generic-input:focus{
+    border-color: var(--primary-light);
+    box-shadow: 0 0 0 .25rem var(--secondary-light);
+}
+
+.generic-modal{
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    font-family: 'Roboto', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: none;
+}
+
+/* BUTTON STYLE */
+
+.generic-button{
+    background-color: var(--primary-light);
+    border: 2px solid var(--primary-dark);
+    border-radius: 10px;
+    box-shadow: var(--secondary-dark) 4px 4px 0 0;
+    color: var(--primary-dark);
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Roboto', serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    min-width: 80px;
+    padding: 0 18px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.generic-button:hover {
+    background-color: var(--secondary-light);
+    color: var(--primary-dark);
+}
+
+.generic-button:active {
+    box-shadow: var(--primary-dark) 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+/* END BUTTON STYLE */
+
+.section-title{
+    background-image: linear-gradient(to right top, #0c1622, #101a27, #141f2d, #182332, #1c2838);
+    color: var(--primary-light);
+    font-family: 'Montserrat', serif;
+    font-size: 1.7rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.generic-link{
+    color: var(--primary-dark);
+    font-family: 'Roboto', serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.generic-link:hover{
+    color: inherit;
+    text-decoration: underline;
+}
+
+/* END COMPONENTS STYLE */
+/***********************/
+
+
+/***************/
+/* MAIN STYLE */
+
+.main-content{
+    background-image: linear-gradient(to bottom, #eeeeee, #e9e9eb, #e4e3e9, #e0dee6, #dbd8e3);
+    color: var(--primary-dark);
+}
+
+/* END MAIN STYLE */
+/*****************/
+
+
+/*******************/
+/* CAROUSEL STYLE */
+
+.caption-back{
+    background-image: linear-gradient(to right bottom, #b4aaa8, #bdb2b2, #c6babd, #cec2c8, #d4cbd4, #d8d1da, #dcd8e0, #e0dee6, #e3e2e8, #e7e6ea, #eaeaec, #eeeeee);
+    border-color: var(--secondary-dark);
+    border-radius: 1rem;
+    border-style: groove;
+}
+
+/* END CAROUSEL STYLE */
+/*********************/
+
+
+/***************************/
+/* ARTICLES SECTION STYLE */
+
+.article-card{
+    background-color: var(--primary-light);
+    border-color: var(--primary-dark);
+}
+
+.article-card-body{
+    padding-bottom: 0;
+}
+
+.article-card-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.article-card-text{
+    text-align: justify;
+}
+
+.difficult-section{
+    transform: translateY(100%);
+}
+
+.star-checked{
+    color: var(--primary-medium);
+}
+
+/* PAGINATION */
+
+.page-link{
+    background-color:var(--primary-dark);
+    border-color: var(--primary-dark);
+    color: var(--secondary-light)
+}
+
+.page-link:hover{
+    background-color: var(--primary-light);
+    border-color: var(--primary-dark);
+    color: var(--primary-dark)
+}
+
+/* END ARTICLES SECTION STYLE */
+/*****************************/
+
+
+/************************/
+/* ASIDE SECTION STYLE */
+
+.search-box:focus-visible{
+    outline: var(--primary-dark);
+}
+
+.category-list{
+    list-style: circle;
+}
+
+/* END ASIDE SECTION STYLE */
+/**************************/
+
+
+/*******************/
+/* NAVBAR STYLE */
+
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0rem;
+}
+
+.navbar-brand{
+    font-size: 1.8rem;
+    padding: 0rem;
+}
+
+.navbar-logo{
+    width: 34px;
+    height: 34px;
+}
+
+.active{
+    background-color: var(--secondary-light);
+    border-color: var(--primary-dark);
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 0 0 0.1rem 0;
+    color: var(--primary-dark);
+}
+
+.nav-item:hover{
+    background-color: var(--secondary-dark);
+    border-radius: 0px;
+    color: var(--secondary-light);
+}
+
+/* END NAVBAR STYLE */
+/*******************/
+
+
+/*****************/
+/* FOOTER STYLE */
+
+.logo-img{
+    width: 96px;
+    height: 96px;
+}
+
+.social-logo{
+    margin-right: 10px;
+}
+
+.brand-name{
+    margin-bottom: 0;
+}
+
+/* END FOOTER STYLE */
+/*******************/
+
+
+/******************/
+/* ABOUT US STYLE */
+
+.about-text{
+    font-family: "Roboto", serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.about-card{
+    background-color: var(--primary-light);
+}
+
+.about-card-body{
+    background-color: var(--secondary-dark);
+    
+}
+
+.about-card-title{
+    color: var(--primary-light);
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* END ABOUT US STYLE */
+/********************/
+
+
+/*************************/
+/* RECIPE GALLERY STYLE */
+
+.drink-card{
+    border-color: var(--primary-dark);
+    max-width: 270px;
+}
+
+.drink-card-body, .drink-card-footer{
+    background-color: var(--secondary-light);
+}
+
+.drink-card-title{
+    font-size: 1.5rem;
+    font-weight:bolder;
+}
+
+.drink-card-text
+{
+    font-weight: 600;
+}
+
+/* END RECIPE GALLERY STYLE */
+/***************************/
+
+
+/******************/
+/* RECIPES STYLE */
+
+.recipe-card-container {
+    border: 1px solid var(--secondary-dark);
+    background-color: var(--secondary-light);
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem;
+    overflow: hidden; 
+    transition: all 400ms ease;
+}
+
+.recipe-card-container:hover {
+    box-shadow: 1.5rem 1.5rem 2rem rgba(255, 255, 255, 0.8);
+    transform: translateY(-3%);
+}
+
+.recipe-card-main, .recipe-card-body, .recipe-card-list, .recipe-card-list > .list-group-item{
+    background-color: var(--primary-light);
+}
+
+.recipe-card-list > .list-group-item{
+    color: var(--primary-dark)
+}
+
+.video-container { 
+    position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed { 
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+}
+
+/**** COMMENTS SECTION ****/
+
+.comment-container, .comment-container-inner{
+    background-color: inherit;
+}
+
+/* END RECIPES STYLE */
+/********************/
