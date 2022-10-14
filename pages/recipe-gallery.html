@@ -1,204 +1,255 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="shortcut icon" href="/assets/images/logo/logo-1-icon.png" type="image/x-icon">
-        <title>Galeria de imagenes</title>
-    </head>
-    <body class="body">
-        <header class="header-section">
-            <!-- NAVBAR SECTION -->
-            <nav class="navbar navbar-expand-lg navbar-light text-uppercase fw-bold">
-                <div class="container-fluid pe-0 ps-0">
-                    <img class="navbar-logo" src="/assets/images/logo/logo-1-small.png" alt="">
-                    <a class="navbar-brand text-white" href="/index.html">Drinkerz</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link text-white" aria-current="page" href="/index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Recetas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="/pages/contact.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="/pages/about.html">Nosotros</a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav me">
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#!" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Suscribirme</a>
-                                <!-- SUSCRIPTION MODAL SECTION -->
-                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="generic-modal modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title fw-bolder" id="staticBackdropLabel">Suscribirme</h5>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p>Para recibir notificaciones sobre las ultimas entradas por favor ingrese su mail:</p>
-                                                <form action="">
-                                                    <input class="generic-input form-control form-control-lg" type="email" id="email-subscription" placeholder="Email" required>
-                                                </form>
-                                            </div>
-                                            <div class="modal-footer">
-                                            <button type="button" class="generic-button" data-bs-dismiss="modal">Cancelar</button>
-                                            <button type="button" class="generic-button">Suscribirme</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="/pages/login.html">Login</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- END NAVBAR SECTION -->
-        </header>
-        <main>
-            <section class="recipe-section">
-                <div class="container main-content">
-                    <div class="row shadow-lg mt-md-3 mb-md-3">
-                        <div class="mt-4">
-                            <h2 class="section-title">RECETAS</h2>
-                        </div>
-                        <div class="container cards-container mb-4">
-                            <div class="row justify-content-around">
-                                <div class="col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0">
-                                    <img src="/assets/images/drinkz/madagascar-sour-1.png" class="card-img-top" alt="foto de madagascar sour">
-                                    <div class="card-body drink-card-body">
-                                        <h5 class="card-title drink-card-title">Madagascar Sour</h5>
-                                        <p class="card-text drink-card-text">He aquí un moderno sour a base de ron, y dedicado a los amantes de la vainilla</p>
-                                    </div>
-                                    <div class="card-footer drink-card-footer">
-                                        <a href="/pages/blog-entries/recipe-1.html" class="generic-button">Ir</a>
-                                    </div>
-                                </div>
-                                <div class="col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0">
-                                    <img src="/assets/images/drinkz/negroni-1.png" class="card-img-top" alt="foto de negroni">
-                                    <div class="card-body drink-card-body">
-                                        <h5 class="card-title drink-card-title">Negroni</h5>
-                                        <p class="card-text drink-card-text">El Negroni es de origen italiano preparado a base de Gin, Campari y Vermú rojo.</p>
-                                    </div>
-                                    <div class="card-footer drink-card-footer">
-                                        <a href="/pages/blog-entries/recipe-2.html" class="generic-button">Ir</a>
-                                    </div>
-                                </div>
-                                <div class="col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0">
-                                    <img src="/assets/images/drinkz/martini-1.png" class="card-img-top" alt="foto de martini">
-                                    <div class="card-body drink-card-body">
-                                        <h5 class="card-title drink-card-title">Martini Dry</h5>
-                                        <p class="card-text drink-card-text">El Dry Martini es un coctel compuesto de ginebra con un chorro de vermut.</p>
-                                    </div>
-                                    <div class="card-footer drink-card-footer">
-                                        <a href="/pages/blog-entries/recipe-3.html" class="generic-button">Ir</a>
-                                    </div>
-                                </div>
-                                <div class="col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0">
-                                    <img src="/assets/images/drinkz/french75-1.png" class="card-img-top" alt="foto de french 75">
-                                    <div class="card-body drink-card-body">
-                                        <h5 class="card-title drink-card-title">French 75</h5>
-                                        <p class="card-text">Fresco, aromático y sofisticado, el French 75 es uno de los mejores cócteles de champán que hay.</p>
-                                    </div>
-                                    <div class="card-footer drink-card-footer">
-                                        <a href="/pages/404error.html" class="generic-button">Ir</a>
-                                    </div>
-                                </div>
-                                <div class="col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0">
-                                    <img src="/assets/images/drinkz/sangria-1.png" class="card-img-top" alt="foto de sangria">
-                                    <div class="card-body drink-card-body">
-                                        <h5 class="card-title drink-card-title">Sangria</h5>
-                                        <p class="card-text">La sangría consiste en vino, fruta picada, refresco, azúcar o algún endulzante y licor.</p>
-                                    </div>
-                                    <div class="card-footer drink-card-footer">
-                                        <a href="/pages/404error.html" class="generic-button">Ir</a>
-                                    </div>
-                                </div>
-                                <div class="col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0">
-                                    <img src="/assets/images/drinkz/mint-juleps-1.png" class="card-img-top" alt="foto de mint juleps">
-                                    <div class="card-body drink-card-body">
-                                        <h5 class="card-title drink-card-title">Mint Juleps</h5>
-                                        <p class="card-text">El Mint Julep o Julepe de Menta se asocia con una familia de coctelería casi desaparecida llamada "smashes".</p>
-                                    </div>
-                                    <div class="card-footer drink-card-footer">
-                                        <a href="/pages/404error.html" class="generic-button">Ir</a>
-                                    </div>
-                                </div>
-                                <div class="col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0">
-                                    <img src="/assets/images/drinkz/mojito-1.png" class="card-img-top" alt="foto de mojito">
-                                    <div class="card-body drink-card-body">
-                                        <h5 class="card-title drink-card-title">Mojito</h5>
-                                        <p class="card-text">El mojito es un cóctel popular originario de Cuba, compuesto de ron, limón, menta o eucalipto y agua mineral.</p>
-                                    </div>
-                                    <div class="card-footer drink-card-footer">
-                                        <a href="/pages/404error.html" class="generic-button">Ir</a>
-                                    </div>
-                                </div>
-                                <div class="col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0">
-                                    <img src="/assets/images/drinkz/margarita-1.png" class="card-img-top" alt="foto de margarita">
-                                    <div class="card-body drink-card-body">
-                                        <h5 class="card-title drink-card-title">Margarita</h5>
-                                        <p class="card-text">La margarita es un cóctel compuesto por tequila, triple sec y jugo de lima o limón. A menudo se sirve con sal en el borde de la copa.</p>
-                                    </div>
-                                    <div class="card-footer drink-card-footer">
-                                            <a href="/pages/404error.html" class="generic-button">Ir</a>
-                                    </div>
-                                </div>
-                            </div>        
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="footer-section">
-            <div class="container-fluid p-4 pb-1 footer-wrapper ">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-4 mb-sm-4 d-flex flex-row text-white footer-logo">
-                        <img class="logo-img" src="/assets/images/logo/logo-1.png" alt="">
-                        <div>
-                            <h2 class="align-self-start fs-4 brand-name fw-bolder">Drinkerz</h2>
-                            <p class="fs-6">2022 - drinkerz.com - Todos los derechos reservados.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-4 mb-sm-4 d-flex flex-column text-white footer-social">
-                        <a href="/pages/404error.html" class="text-reset">
-                            <i class="fab fa-facebook-square fa-lg social-logo"></i>Facebook
-                        </a>
-                        <a href="/pages/404error.html" class="text-reset">
-                            <i class="fab fa-twitter-square fa-lg social-logo"></i>Twitter
-                        </a>
-                        <a href="/pages/404error.html" class="text-reset">
-                            <i class="fab fa-instagram-square fa-lg social-logo"></i>Instagram
-                        </a>
-                        <a href="https://github.com/JRSalica/drinkerz" class="text-reset">
-                            <i class="fab fa-github-square fa-lg social-logo"></i>Github
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md col-lg-6 footer-description">
-                        <p class="fst-italic mb-0">Hecho con entusiasmo para ustedes por el equipo de Drinkerz.
-                        </p>
-                        <p class="mb-0"><i class="fa fa-location-arrow"></i> San Martin 36666 - S.M de Tucuman</p>
-                        <p class="mb-0"><i class="fa fa-phone"></i>  +54-9381123456</p>
-                        <p class="mb-0"><i class="fa fa fa-envelope"></i> contacto@drinkerz.com</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/42749da707.js" crossorigin="anonymous"></script>
-    </body>
+<html lang='es'>
+<head>
+	<meta charset='UTF-8' />
+	<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+	<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+	<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet'
+		integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous' />
+	<link rel='stylesheet' href='/css/style.css' />
+	<link rel='shortcut icon' href='/assets/images/logo/logo-1-icon.png' type='image/x-icon' />
+	<title>Galeria de imagenes</title>
+</head>
+<body class='body'>
+	<header class='header-section'>
+		<!-- NAVBAR SECTION -->
+		<nav class='navbar navbar-expand-lg navbar-light text-uppercase fw-bold'>
+			<div class='container-fluid pe-0 ps-0'>
+				<img class='navbar-logo' src='/assets/images/logo/logo-1-small.png' alt='' />
+				<a class='navbar-brand text-white' href='/index.html'>Drinkerz</a>
+				<button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent'
+					aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+					<span class='navbar-toggler-icon'></span>
+				</button>
+				<div class='collapse navbar-collapse' id='navbarSupportedContent'>
+					<ul class='navbar-nav me-auto mb-2 mb-lg-0'>
+						<li class='nav-item'>
+							<a class='nav-link text-white' aria-current='page' href='/index.html'>Inicio</a>
+						</li>
+						<li class='nav-item'>
+							<a class='nav-link active' href='#'>Recetas</a>
+						</li>
+						<li class='nav-item'>
+							<a class='nav-link text-white' href='/pages/contact.html'>Contacto</a>
+						</li>
+						<li class='nav-item'>
+							<a class='nav-link text-white' href='/pages/about.html'>Nosotros</a>
+						</li>
+					</ul>
+					<ul class='navbar-nav me'>
+						<li class='nav-item'>
+							<a class='nav-link text-white' href='#!' data-bs-toggle='modal'
+								data-bs-target='#staticBackdrop'>Suscribirme</a>
+							<!-- SUSCRIPTION MODAL SECTION -->
+							<div class='modal fade' id='staticBackdrop' data-bs-backdrop='static' data-bs-keyboard='false'
+								tabindex='-1' aria-labelledby='staticBackdropLabel' aria-hidden='true'>
+								<div class='modal-dialog'>
+									<div class='generic-modal modal-content'>
+										<div class='modal-header'>
+											<h5 class='modal-title fw-bolder' id='staticBackdropLabel'>
+												Suscribirme
+											</h5>
+										</div>
+										<div class='modal-body'>
+											<p>
+												Para recibir notificaciones sobre las ultimas entradas
+												por favor ingrese su mail:
+											</p>
+											<form action=''>
+												<input class='generic-input form-control form-control-lg' type='email' id='email-subscription'
+													placeholder='Email' required />
+											</form>
+										</div>
+										<div class='modal-footer'>
+											<button type='button' class='generic-button' data-bs-dismiss='modal'>
+												Cancelar
+											</button>
+											<button type='button' class='generic-button'>
+												Suscribirme
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class='nav-item'>
+							<a class='nav-link text-white' href='/pages/login.html'>Login</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- END NAVBAR SECTION -->
+	</header>
+	<main>
+		<section class='recipe-section'>
+			<div class='container main-content'>
+				<div class='row shadow-lg mt-md-3 mb-md-3'>
+					<div class='mt-4'>
+						<h2 class='section-title'>RECETAS</h2>
+					</div>
+					<div class='container cards-container mb-4'>
+						<div class='row justify-content-around'>
+							<div class='col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0'>
+								<img src='/assets/images/drinkz/madagascar-sour-1.png' class='card-img-top'
+									alt='foto de madagascar sour' />
+								<div class='card-body drink-card-body'>
+									<h5 class='card-title drink-card-title'>Madagascar Sour</h5>
+									<p class='card-text drink-card-text'>
+										He aquí un moderno sour a base de ron, y dedicado a los
+										amantes de la vainilla
+									</p>
+								</div>
+								<div class='card-footer drink-card-footer'>
+									<a href='/pages/blog-entries/recipe-1.html' class='generic-button'>Ir</a>
+								</div>
+							</div>
+							<div class='col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0'>
+								<img src='/assets/images/drinkz/negroni-1.png' class='card-img-top' alt='foto de negroni' />
+								<div class='card-body drink-card-body'>
+									<h5 class='card-title drink-card-title'>Negroni</h5>
+									<p class='card-text drink-card-text'>
+										El Negroni es de origen italiano preparado a base de Gin,
+										Campari y Vermú rojo.
+									</p>
+								</div>
+								<div class='card-footer drink-card-footer'>
+									<a href='/pages/blog-entries/recipe-2.html' class='generic-button'>Ir</a>
+								</div>
+							</div>
+							<div class='col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0'>
+								<img src='/assets/images/drinkz/martini-1.png' class='card-img-top' alt='foto de martini' />
+								<div class='card-body drink-card-body'>
+									<h5 class='card-title drink-card-title'>Martini Dry</h5>
+									<p class='card-text drink-card-text'>
+										El Dry Martini es un coctel compuesto de ginebra con un
+										chorro de vermut.
+									</p>
+								</div>
+								<div class='card-footer drink-card-footer'>
+									<a href='/pages/blog-entries/recipe-3.html' class='generic-button'>Ir</a>
+								</div>
+							</div>
+							<div class='col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0'>
+								<img src='/assets/images/drinkz/french75-1.png' class='card-img-top' alt='foto de french 75' />
+								<div class='card-body drink-card-body'>
+									<h5 class='card-title drink-card-title'>French 75</h5>
+									<p class='card-text'>
+										Fresco, aromático y sofisticado, el French 75 es uno de
+										los mejores cócteles de champán que hay.
+									</p>
+								</div>
+								<div class='card-footer drink-card-footer'>
+									<a href='/pages/404error.html' class='generic-button'>Ir</a>
+								</div>
+							</div>
+							<div class='col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0'>
+								<img src='/assets/images/drinkz/sangria-1.png' class='card-img-top' alt='foto de sangria' />
+								<div class='card-body drink-card-body'>
+									<h5 class='card-title drink-card-title'>Sangria</h5>
+									<p class='card-text'>
+										La sangría consiste en vino, fruta picada, refresco,
+										azúcar o algún endulzante y licor.
+									</p>
+								</div>
+								<div class='card-footer drink-card-footer'>
+									<a href='/pages/404error.html' class='generic-button'>Ir</a>
+								</div>
+							</div>
+							<div class='col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0'>
+								<img src='/assets/images/drinkz/mint-juleps-1.png' class='card-img-top' alt='foto de mint juleps' />
+								<div class='card-body drink-card-body'>
+									<h5 class='card-title drink-card-title'>Mint Juleps</h5>
+									<p class='card-text'>
+										El Mint Julep o Julepe de Menta se asocia con una familia
+										de coctelería casi desaparecida llamada 'smashes'.
+									</p>
+								</div>
+								<div class='card-footer drink-card-footer'>
+									<a href='/pages/404error.html' class='generic-button'>Ir</a>
+								</div>
+							</div>
+							<div class='col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0'>
+								<img src='/assets/images/drinkz/mojito-1.png' class='card-img-top' alt='foto de mojito' />
+								<div class='card-body drink-card-body'>
+									<h5 class='card-title drink-card-title'>Mojito</h5>
+									<p class='card-text'>
+										El mojito es un cóctel popular originario de Cuba,
+										compuesto de ron, limón, menta o eucalipto y agua mineral.
+									</p>
+								</div>
+								<div class='card-footer drink-card-footer'>
+									<a href='/pages/404error.html' class='generic-button'>Ir</a>
+								</div>
+							</div>
+							<div class='col col-12 col-sm-12 col-md-4 col-lg-3 card drink-card text-center mt-2 mb-4 ms-1 me-1 p-0'>
+								<img src='/assets/images/drinkz/margarita-1.png' class='card-img-top' alt='foto de margarita' />
+								<div class='card-body drink-card-body'>
+									<h5 class='card-title drink-card-title'>Margarita</h5>
+									<p class='card-text'>
+										La margarita es un cóctel compuesto por tequila, triple
+										sec y jugo de lima o limón. A menudo se sirve con sal en
+										el borde de la copa.
+									</p>
+								</div>
+								<div class='card-footer drink-card-footer'>
+									<a href='/pages/404error.html' class='generic-button'>Ir</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class='footer-section'>
+		<div class='container-fluid p-4 pb-1 footer-wrapper'>
+			<div class='row'>
+				<div class='col-12 col-sm-12 col-md-6 col-lg-3 mb-4 mb-sm-4 d-flex flex-row text-white footer-logo'>
+					<img class='logo-img' src='/assets/images/logo/logo-1.png' alt='' />
+					<div>
+						<h2 class='align-self-start fs-4 brand-name fw-bolder'>
+							Drinkerz
+						</h2>
+						<p class='fs-6'>
+							2022 - drinkerz.com - Todos los derechos reservados.
+						</p>
+					</div>
+				</div>
+				<div class='col-12 col-sm-12 col-md-6 col-lg-3 mb-4 mb-sm-4 d-flex flex-column text-white footer-social'>
+					<a href='/pages/404error.html' class='text-reset'>
+						<i class='fab fa-facebook-square fa-lg social-logo'></i>Facebook
+					</a>
+					<a href='/pages/404error.html' class='text-reset'>
+						<i class='fab fa-twitter-square fa-lg social-logo'></i>Twitter
+					</a>
+					<a href='/pages/404error.html' class='text-reset'>
+						<i class='fab fa-instagram-square fa-lg social-logo'></i>Instagram
+					</a>
+					<a href='https://github.com/JRSalica/drinkerz' class='text-reset'>
+						<i class='fab fa-github-square fa-lg social-logo'></i>Github
+					</a>
+				</div>
+				<div class='col-12 col-sm-12 col-md col-lg-6 footer-description'>
+					<p class='fst-italic mb-0'>
+						Hecho con entusiasmo para ustedes por el equipo de Drinkerz.
+					</p>
+					<p class='mb-0'>
+						<i class='fa fa-location-arrow'></i> San Martin 36666 - S.M de
+						Tucuman
+					</p>
+					<p class='mb-0'><i class='fa fa-phone'></i> +54-9381123456</p>
+					<p class='mb-0'>
+						<i class='fa fa fa-envelope'></i> contacto@drinkerz.com
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'
+		integrity='sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p'
+		crossorigin='anonymous'></script>
+	<script src='https://kit.fontawesome.com/42749da707.js' crossorigin='anonymous'></script>
+</body>
+
 </html>
