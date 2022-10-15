@@ -4,6 +4,8 @@ Drinkerz is a project made to learn the basic technologies for web development: 
 
 Drinkerz do an impression of a cocktails recipes website where you can learn how to make some drinks.
 
+Demo link: [Drinkerz on Netlify](https://drinkerz.netlify.app/).
+
 ### Technologies used:
 - HTML5
 - CSS3
